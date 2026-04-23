@@ -25,25 +25,48 @@ Push code to main branch → pipeline auto runs.
 
 ## Structure
 ml-cicd-github-actions/
+
 │── .github/
+
 │   └── workflows/
+
 │       └── ml-pipeline.yml
+
 │
+
 │── data/
+
 │   └── sample.csv
+
 │
+
 │── src/
+
 │   ├── preprocess.py
+
 │   ├── train.py
+
 │   ├── evaluate.py
+
 │   └── predict.py
+
 │
+
 │── models/
+
 │   └── (saved model here after training)
+
 │
+
 │── requirements.txt
+
 │── Dockerfile
+
 │── README.md
+
 │── app.py
+
 │── test_model.py
+
 │── .gitignore
+
